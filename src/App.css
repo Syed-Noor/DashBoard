@@ -1,0 +1,224 @@
+/* **    General     **
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto
+} */
+/* .App {
+    /* background: linear-gradient(
+      106.37deg,
+      #ffe1bc 29.63%,
+      #ffcfd1 51.55%,
+      #f3c6f1 90.85%
+  ); */
+  /* height: 100vh;
+  display: flex;
+  font-family: 'Inter', sans-serif; */
+  /* } */ */
+  /* .AppGlass{
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: var(--glass);
+   
+    grid-template-columns: 11rem auto 20rem;
+  } */
+  .card{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+
+.dash{
+    Width:131%
+}
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #000;
+    color: #fff;
+    /* height: 100vh;
+    /* width: 200px; */ 
+    transition: all 0.5s;
+    margin-left: -9%;
+    height: 47pc;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
